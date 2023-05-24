@@ -1,8 +1,11 @@
 # yeb
 # B站SpringBoot+Vue 云E办视频的手敲学习代码
 
-
-
+## 下载后使用流程：
+### 1.前端使用WebStorm，根据提示执行npm install下载各个插件，或者可以自己挨个下载；如果出现下载报错的情况，可在命令后加--force重试
+### 2.MySQL使用Navicat Premium，新建查询，将sql文件直接拖入或者copy进去执行
+### 3.后端使用IDEA，依赖会自动下载，或者提示是否Auto Import，选择自动导入；然后找到YebApplication.java文件，点击三角符号运行
+### 各部分软件是根据我用的所推荐，也可以替换为同类IDE
 
 
 
