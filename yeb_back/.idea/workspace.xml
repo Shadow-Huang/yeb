@@ -119,7 +119,7 @@
       <module name="yeb-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxxx.server.*" />
+          <option name="PATTERN" value="com.xxxx.server.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,6 +154,9 @@
       <workItem from="1684411520198" duration="30631000" />
       <workItem from="1684576597390" duration="1451000" />
       <workItem from="1684578568595" duration="3944000" />
+      <workItem from="1684719540290" duration="52472000" />
+      <workItem from="1684897163972" duration="5769000" />
+      <workItem from="1684916769802" duration="5165000" />
     </task>
     <servers />
   </component>
