@@ -6,6 +6,7 @@
 ### 2.MySQL使用Navicat Premium，新建查询，将sql文件直接拖入或者copy进去执行
 ### 3.后端使用IDEA，依赖会自动下载，或者提示是否Auto Import，选择自动导入；然后找到YebApplication.java文件，点击三角符号运行
 ### 各部分软件是根据我用的所推荐，也可以替换为同类IDE
+欢迎学习交流！
 
 
 
