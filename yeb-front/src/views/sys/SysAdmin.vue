@@ -1,7 +1,7 @@
 <template>
   <div>
     <div style="display: flex;justify-content: center;margin-top: 8px">
-      <el-input v-model="keyword" placeholder="通过用户名搜索用户..." prefix-icon="el-icon-search"
+      <el-input v-model="keywords" placeholder="通过用户名搜索用户..." prefix-icon="el-icon-search"
                 style="width: 400px;margin-right: 8px"></el-input>
 
       <el-button type="primary" icon="el-icon-search" @click="doSearch">搜索</el-button>
@@ -82,7 +82,7 @@ export default {
     return {
 
       admins: [],
-      keyword: '',
+      keywords: '',
       allRoles: [],
       selectRoles: []
     };
@@ -177,7 +177,7 @@ export default {
     },
 
     initAdmins() {
-      this.getRequest('/system/admin/?keyword=' + this.keyword).then(resp => {
+      this.getRequest('/system/admin/?keywords=' + this.keywords).then(resp => {
         if (resp) {
           this.admins = resp;
         }
