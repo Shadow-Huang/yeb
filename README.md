@@ -1,9 +1,18 @@
 # B站SpringBoot+Vue 云E办视频的手敲学习代码
 
+## 准备软件：
+### 1.Node.js
+### 2.Navicat Premium
+### 3.IDEA
+### 4.Redis(windows版去github下载微软维护的那个)
+### 5.WebStorm
+
 ## 下载后使用流程：
-### 1.前端使用WebStorm，根据提示执行npm install下载各个插件，或者可以自己挨个下载；如果出现下载报错的情况，可在命令后加--force重试
+### 1.使用redis-server.exe打开redis
 ### 2.MySQL使用Navicat Premium，新建查询，将sql文件直接拖入或者copy进去执行
-### 3.后端使用IDEA，依赖会自动下载，或者提示是否Auto Import，选择自动导入；然后找到YebApplication.java文件，点击三角符号运行
+### 3.后端使用IDEA，依赖会自动下载，或者提示是否Auto-Import，选择自动导入；然后找到YebApplication.java文件，点击三角符号运行
+### 4.前端使用WebStorm，根据提示执行npm install下载各个插件，或者可以自己挨个下载；如果出现下载报错的情况，可在命令后加--force重试
+### 5.WebStorm中打开终端，输入命令npm run serve运行
 ### 各部分软件是根据我用的所推荐，也可以替换为同类IDE
 欢迎学习交流！
 
@@ -30,3 +39,6 @@ email功能，聊天功能。
 前端代码替换，因为前端部分视频有缺少部分，部分bug本人无法修复，这里替换为jili20的前端代码。
 ### 未实现功能：
 个人中心页面，修改密码页面。
+
+## 2023-5-25
+更改前端端口为8080，修改SysAdmin.vue中的关键字查询功能。
